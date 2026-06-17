@@ -14,3 +14,7 @@
 | 12   | Advanced OOP                | Built online shopping and pet management programs using object-oriented programming.      |
 | 13   | Classes and Objects         | Created lecturer and student class programs using object-oriented principles.             |
 | 14   | Stock Management System     | Developed a stock management system using object-oriented programming concepts.           |
+## Sample Outputs
+
+### Week 2 – Budget Calculator
+![Week 2 Output](week2.png)
