@@ -17,4 +17,4 @@
 ## Sample Outputs
 
 ### Week 2 – Budget Calculator
-![Week 2 Output](week2.png)
+![Week 2 Output](week_2.png)
