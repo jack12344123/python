@@ -1,4 +1,8 @@
 class requisition:
+    counter = 0
+    total_approved_requisitions = 0
+    total_not_approved = 0
+    total_pending_requisitions = 0
 
     def __init__(self,Date, staff_id, staff_name, status ):
         self.Date = Date
@@ -9,8 +13,6 @@ class requisition:
         self.items = []
         self.requisition_id = 0
         self.approval_ref = "Not available"
-
-    counter = 0
 
     def add_requisition(self):
 
@@ -86,9 +88,11 @@ class requisition:
             self.status = "Approved"
             last_three = str(self.requisition_id)[-3:]
             self.approval_ref = self.staff_id + last_three
+            requisition.total_approved_requisitions += 1
         else:
 
             self.approval_ref = "not available"
+            requisition.total_pending_requisitions += 1
 
 
 
@@ -96,9 +100,13 @@ class requisition:
         if self.status == "Pending":
             response = input("Approve or Not approved? ")
             if response.lower() == "approved":
-                self.status = "approved"
+                self.status = "Approved"
+                requisition.total_approved_requisitions += 1
+                requisition.total_pending_requisitions -= 1
             elif response.lower() == "not approved":
                 self.status = "Not approved"
+                requisition.total_not_approved += 1
+                requisition.total_pending_requisitions -= 1
             else:
                 print("invalid response. Please try again.")
         else:
@@ -117,9 +125,6 @@ class requisition:
         print("Total:", self.total)
         print("Status:", self.status)
         print("Approval ref:", self.approval_ref)
-
-
-
 
 
 
@@ -157,5 +162,8 @@ req5.approve_requisition()
 req5.respond_requisition()
 req5.display_requisition()
 
-
+print("Total requisitions submitted:", requisition.counter)
+print("Total approved requisitions:", requisition.total_approved_requisitions)
+print("Total not approved requisitions:", requisition.total_not_approved)
+print("The total number of pending requisitions:", requisition.total_pending_requisitions)
 

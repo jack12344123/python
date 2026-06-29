@@ -18,3 +18,25 @@
 
 ### Week 2 – Budget Calculator
 ![Week 2 Output](week_2.png)
+### Week 7 – Budget Calculator
+![Week 7 Output](week_7.png)
+### Week 12 – Budget Calculator
+![Week 12 Output](week_12.png)
+### Week 15 – Budget Calculator
+![Week 15 Output](week_15.png)
+### Week 15 – Budget Calculator
+![Week 15 Output](week_15.png2.png)
+### Week 15 – Budget Calculator
+![Week 15 Output](week_15.png3.png)
+### assignment 2 – Budget Calculator
+![ assignment_2 Output](assignment_2.png)
+### assignment 2 – Budget Calculator
+![ assignment_2 Output](assignment_2.png2.png)
+### assignment 2 – Budget Calculator
+![ assignment_2 Output](assignment_.png3.png)
+### assignment 2 – Budget Calculator
+![ assignment_2 Output](assignment_2.png4.png)
+### assignment 2 – Budget Calculator
+![ assignment_2 Output](assignment_2.png5.png)
+### assignment 2 – Budget Calculator
+![ assignment_2 Output](assignment_2.png6.png)
